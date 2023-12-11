@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie-organiser/static/css/main.a8daf792.css",
+    "main.js": "/movie-organiser/static/js/main.674b64bb.js",
+    "index.html": "/movie-organiser/index.html",
+    "main.a8daf792.css.map": "/movie-organiser/static/css/main.a8daf792.css.map",
+    "main.674b64bb.js.map": "/movie-organiser/static/js/main.674b64bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8daf792.css",
+    "static/js/main.674b64bb.js"
+  ]
+}

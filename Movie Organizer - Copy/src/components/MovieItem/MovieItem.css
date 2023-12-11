@@ -1,0 +1,72 @@
+.movie-item {
+    padding: 20px;
+    background-color: #FFEEDB;
+    display: flex;
+}
+
+.movie-item__poster {
+    height: 150px;
+    margin-right: 21px;
+    border-radius: 10px;
+}
+
+.movie-item__title {
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.movie-item__add-button {
+    border: none;
+    background-color: cornflowerblue;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    border-radius: 10px;
+}
+
+.movie-item__add-button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+    background-color: red;
+}
+
+/* mobile css */
+@media only screen and (max-width: 720px) {
+    .movie-item {
+        padding: 6vw;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .movie-item__poster {
+        height: 35%;
+        margin-right: 4vw;
+        width: 65%;   
+        margin-left: 15%;
+     }
+    
+    .movie-item__title {
+        margin-top: 10px;
+        font-size: 4vw;
+        margin-bottom: 2vw;
+        width: 60%;
+        margin-left: 15%;
+        text-align: center;
+    }
+    
+    .movie-item__add-button {
+        padding: 2.7vw 2vw;
+        font-size: 3vw;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 13%;
+        width: 70%;
+    }
+    
+  
+}
